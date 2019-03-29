@@ -24,6 +24,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 - Allow draft-js v0.11
 - Remove unused dependencies
+- Add new config option: `mentionPostfix`.
 
 ## 3.1.3
 
