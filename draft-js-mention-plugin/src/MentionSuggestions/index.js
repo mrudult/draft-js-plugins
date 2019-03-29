@@ -249,6 +249,7 @@ export class MentionSuggestions extends Component {
       this.props.store.getEditorState(),
       mention,
       this.props.mentionPrefix,
+      this.props.mentionPostfix,
       this.props.mentionTrigger,
       this.props.entityMutability
     );
@@ -339,8 +340,8 @@ export class MentionSuggestions extends Component {
       positionSuggestions, // eslint-disable-line no-unused-vars
       mentionTrigger, // eslint-disable-line no-unused-vars
       mentionPrefix, // eslint-disable-line no-unused-vars
-      ...elementProps
-    } = this.props;
+      mentionPostfix, // eslint-disable-line no-unused-vars
+      ...elementProps } = this.props;
 
     return React.cloneElement(
       popoverComponent,
